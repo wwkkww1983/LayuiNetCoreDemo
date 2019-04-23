@@ -140,7 +140,7 @@ layui.use(['bodyTab','form','element','layer','jquery'],function(){
 function addTab(_this){
 	tab.tabAdd(_this);
 }
-//打开新窗口
+//打开新窗口一个自定义 添加页签的功能。
 function tabCustomAdd(titleText, url,target){
     tab.tabCustomAdd(target, titleText, url);
 }
