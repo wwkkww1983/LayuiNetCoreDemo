@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayuiNetCoreDemo", "LayuiNetCoreDemo\LayuiNetCoreDemo.csproj", "{007A49FD-AE03-498D-85D5-9270DA70D96A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007A49FD-AE03-498D-85D5-9270DA70D96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007A49FD-AE03-498D-85D5-9270DA70D96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007A49FD-AE03-498D-85D5-9270DA70D96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007A49FD-AE03-498D-85D5-9270DA70D96A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06381345-8B6A-4310-A12B-A19E00EE6B49}
+	EndGlobalSection
+EndGlobal
