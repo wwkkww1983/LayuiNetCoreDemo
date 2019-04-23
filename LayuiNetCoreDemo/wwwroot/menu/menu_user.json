@@ -1,0 +1,87 @@
+{
+  "vipCenter": [
+    {
+      "title": "账户信息",
+      "icon": "&#xe7ae;",
+      "href": "javascript:;",
+      "spread": false,
+      "children": [
+        {
+          "title": "基本信息",
+          "icon": "&#xe638;",
+          "href": "/Home/About",
+          "spread": true
+        },
+        {
+          "title": "测试页面1",
+          "icon": "&#xe638;",
+          "href": "/Home/About",
+          "spread": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "账户安全",
+      "icon": "&#xe672;",
+      "href": "/Home/About",
+      "spread": false,
+      "children": []
+    }
+  ],
+  "bussinessManagement": [
+    {
+      "title": "测试页面2",
+      "icon": "icon-text",
+      "href": "/Home/About",
+      "spread": false
+    }
+  ],
+  "messageManagement": [
+    {
+      "title": "测试页面3",
+      "icon": "&#xe68e;",
+      "href": "javascript:;",
+      "spread": false,
+      "children": []
+    }
+  ],
+  "actionMessage": [
+    {
+      "title": "测试页面4",
+      "icon": "&#xe68e;",
+      "href": "/Home/About",
+      "spread": false,
+      "children": []
+    },
+    {
+      "title": "测试页面5",
+      "icon": "&#xe68e;",
+      "href": "javascript:;",
+      "spread": false,
+      "children": [
+        {
+          "title": "测试页面6",
+          "icon": "&#xe68e;",
+          "href": "/Home/About",
+          "spread": false,
+          "children": []
+        },
+        {
+          "title": "测试页面7",
+          "icon": "&#xe68e;",
+          "href": "/Home/About",
+          "spread": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "测试页面8",
+      "icon": "&#xe68e;",
+      "href": "/Home/About",
+      "spread": false,
+      "children": []
+    }
+  ]
+}
