@@ -1,4 +1,4 @@
-layui.define(["form","jquery"],function(exports){
+﻿layui.define(["form","jquery"],function(exports){
     var form = layui.form,
     $ = layui.jquery,
     Address = {

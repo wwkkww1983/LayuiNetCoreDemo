@@ -1,4 +1,4 @@
-/*公共样式*/
+﻿/*公共样式*/
 .header .layui-nav-child{ z-index:99999; top:60px; left: auto; right: 0;}
 .seraph{ font-size:16px !important;}
 .main_body{ min-width:320px; }

@@ -1,4 +1,4 @@
-var $,tab,dataStr,layer;
+﻿var $,tab,dataStr,layer;
 layui.config({
 	base : "/layui/plus/js/"
 }).extend({
