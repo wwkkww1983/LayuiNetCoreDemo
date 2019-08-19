@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ..
+COPY . .
 RUN dotnet restore "LayuiNetCoreDemo.csproj"
 WORKDIR "/src/LayuiNetCoreDemo"
 RUN dotnet builld "LayuiNetCoreDemo.csproj" -c Release -o /app
