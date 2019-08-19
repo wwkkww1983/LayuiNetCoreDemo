@@ -7,7 +7,6 @@ FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
 COPY . .
 RUN dotnet restore "LayuiNetCoreDemo.csproj"
-WORKDIR "/src/LayuiNetCoreDemo"
 RUN dotnet build "LayuiNetCoreDemo.csproj" -c Release -o /app
 
 FROM build AS publish
