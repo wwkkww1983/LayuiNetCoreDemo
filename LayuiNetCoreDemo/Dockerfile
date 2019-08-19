@@ -1,11 +1,11 @@
-FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
+﻿FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["LayuiNetCoreDemo/LayuiNetCoreDemo.csproj", "LayuiNetCoreDemo/"]
+COPY ["LayuiNetCoreDemo.csproj", "LayuiNetCoreDemo/"]
 RUN dotnet restore "LayuiNetCoreDemo/LayuiNetCoreDemo.csproj"
 COPY . .
 WORKDIR "/src/LayuiNetCoreDemo"
