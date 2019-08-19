@@ -8,7 +8,7 @@ WORKDIR /src
 COPY . .
 RUN dotnet restore "LayuiNetCoreDemo.csproj"
 WORKDIR "/src/LayuiNetCoreDemo"
-RUN dotnet builld "LayuiNetCoreDemo.csproj" -c Release -o /app
+RUN dotnet build "LayuiNetCoreDemo.csproj" -c Release -o /app
 
 FROM build AS publish
 RUN dotnet publish "LayuiNetCoreDemo.csproj" -c Release -o /app
