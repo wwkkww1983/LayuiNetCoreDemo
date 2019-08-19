@@ -1,6 +1,6 @@
 # LayuiNetCoreDemo
 在巨人的肩膀上再次修改-layui
-
+在线演示：http://www.jalan.wang
 当前整合 是基于这个小改的
 https://github.com/BrotherMa/layuicms2.0
 
