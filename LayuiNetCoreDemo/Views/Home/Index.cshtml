@@ -14,7 +14,7 @@
             <!-- 顶级菜单 -->
             <ul class="layui-nav mobileTopLevelMenus" mobile>
                 <li class="layui-nav-item" data-menu="contentManagement">
-                    @*<a href="javascript:;"><i class="seraph icon-caidan"></i><cite>layuiCMS</cite></a>*@
+                    <a href="javascript:;"><i class="seraph icon-caidan"></i><cite>龙之晶水王</cite></a>
                     <dl class="layui-nav-child">
                         <dd class="layui-this" data-menu="vipCenter"><a href="javascript:;"><i class="layui-icon" data-icon="&#xe63c;">&#xe63c;</i><cite>会员中心</cite></a></dd>
                         <dd data-menu="bussinessManagement"><a href="javascript:;"><i class="seraph icon-icon10" data-icon="icon-icon10"></i><cite>业务管理</cite></a></dd>
@@ -34,8 +34,8 @@
                     <a href="javascript:;"><i class="layui-icon" data-icon="&#xe620;">&#xe620;</i><cite>消息管理</cite></a>
                 </li>
                 <li class="layui-nav-item" data-menu="actionMessage" pc>
-            <a href="javascript:;"><i class="layui-icon" data-icon="&#xe705;">&#xe705;</i><cite>活动信息</cite></a>
-        </li>
+                    <a href="javascript:;"><i class="layui-icon" data-icon="&#xe705;">&#xe705;</i><cite>活动信息</cite></a>
+                </li>
             </ul>
             <!-- 顶部右侧菜单 -->
             <ul class="layui-nav top_menu">
@@ -49,7 +49,7 @@
                     <a href="javascript:;">
                         <img src="/images/me.png" class="layui-nav-img userAvatar" width="35" height="35">
 
-                            <cite class="adminName">测试账号</cite>
+                        <cite class="adminName">测试账号</cite>
                     </a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" data-url="/user"><i class="seraph icon-ziliao" data-icon="icon-ziliao"></i><cite>个人资料</cite></a></dd>
@@ -67,13 +67,13 @@
     <div class="layui-side layui-bg-black">
         <!-- 搜索 -->
         @*<div class="layui-form component">
-            <select name="search" id="search" lay-search lay-filter="searchPage">
-                <option value="">搜索页面或功能</option>
-                <option value="1">layer</option>
-                <option value="2">form</option>
-            </select>
-            <i class="layui-icon">&#xe615;</i>
-        </div>*@
+                <select name="search" id="search" lay-search lay-filter="searchPage">
+                    <option value="">搜索页面或功能</option>
+                    <option value="1">layer</option>
+                    <option value="2">form</option>
+                </select>
+                <i class="layui-icon">&#xe615;</i>
+            </div>*@
         <div class="navBar layui-side-scroll" id="navBar">
             <ul class="layui-nav layui-nav-tree">
                 <li class="layui-nav-item layui-this">
@@ -106,13 +106,15 @@
         </div>
     </div>
     <!-- 底部 -->
-    <div class="layui-footer footer">
-        <span>
-            &copy; @DateTime.Now.Year - 龙之晶水王 ICP备案/许可证号：粤ICP备19077741号 
-            注：当前页面仅做为人个开发研究使用
-        </span>
+    <div class="layui-footer footer" style="text-align:center;height:60px;color:#939393;">
+        <p style="height:25px"><span>  &copy; @DateTime.Now.Year - 龙之晶水王 ICP备案/许可证号：粤ICP备19077741号</span></p>
+        <div style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+            <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">注：当前页面仅做为人个开发研究使用</p>
+            &nbsp; E-mail:wjl1627@163.com &nbsp; QQ:86167612
+        </div>
     </div>
 </div>
 <!-- 移动导航 -->
 <div class="site-tree-mobile"><i class="layui-icon">&#xe602;</i></div>
 <div class="site-mobile-shade"></div>
+<div class="layui-layer-move"></div>
