@@ -440,7 +440,7 @@ layui.define(["element", "jquery"], function (exports) {
                     element.tabDelete("bodyTab", $(this).attr("lay-id")).init();
                     //if (menu == null) {
                     //    console.log("关闭其他  menu == null");
-                    //    continue;
+                    //    continue; 
                     //}
                     //此处将当前窗口重新获取放入session，避免一个个删除来回循环造成的不必要工作量
                     for (var i = 0; i < menu.length; i++) {
